@@ -93,7 +93,7 @@ def load_or_create_index_no_ui() -> tuple[pd.DataFrame, np.ndarray]:
         return load_index_from_cache()
 
     if not os.path.exists(ORIGIN_CSV):
-        raise FileNotFoundError(f"원본 CSV를 찾을 수 없습니다: {ORIGIN_CSV}")
+        raise FileNotFoundError(f"원본 CSV를 찾을 수 없습니다: {ORIGIN_CSV}_gib")
 
     df = pd.read_csv(ORIGIN_CSV)
     if "content" not in df.columns:
