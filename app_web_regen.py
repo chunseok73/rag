@@ -3,7 +3,7 @@ import shutil
 import pandas as pd
 import numpy as np
 import streamlit as st
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 from openai import OpenAI
 
 # =========================================================
