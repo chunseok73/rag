@@ -181,7 +181,7 @@ def ask_llm(question: str, snippets: list[str]) -> str:
 
 # (2) Streamlit UI
 st.set_page_config(page_title="RAG 매뉴얼 Q&A (Cache Regenerate)", layout="wide")
-st.title("사내 매뉴얼 Q&A ('캐시 삭제/재생성' 확장)")
+st.title("사내 매뉴얼 Q&A ('캐시 삭제/재생성' 확장)git")
 st.caption("버튼 클릭 시.. embedding 디렉토리를 삭제하고, company_manual01.csv 기반으로 em01.csv와 em01.npy를 재생성")
 
 # session_state 초기화
